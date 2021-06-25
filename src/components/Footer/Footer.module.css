@@ -1,0 +1,34 @@
+.footer{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+    width:100vw;
+    padding:30px 40px;
+    background-color: rgb(10, 10, 10);
+    position:absolute;
+    bottom:0;
+    text-align:left;
+}
+.leftFooter{
+    width:80%;
+}
+.leftFooter Button{
+    display:grid;
+    font-size: 18px;;
+}
+.products div, .company div{
+    cursor: pointer;
+}
+.products div:hover,.company div:hover{
+    color:#fff;
+}
+/* .rightFooter{
+   
+} */
+@media only screen and (max-width:600px){
+    .footer{
+        grid-template-columns: repeat(1,1fr);
+        text-align:justify;
+    }
+}
+
