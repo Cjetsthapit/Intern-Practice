@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Intern-Practice/static/css/main.428c3b37.chunk.css",
-    "main.js": "/Intern-Practice/static/js/main.330f96aa.chunk.js",
-    "main.js.map": "/Intern-Practice/static/js/main.330f96aa.chunk.js.map",
+    "main.css": "/Intern-Practice/static/css/main.c7cc32f9.chunk.css",
+    "main.js": "/Intern-Practice/static/js/main.ff142ded.chunk.js",
+    "main.js.map": "/Intern-Practice/static/js/main.ff142ded.chunk.js.map",
     "runtime-main.js": "/Intern-Practice/static/js/runtime-main.aaafca31.js",
     "runtime-main.js.map": "/Intern-Practice/static/js/runtime-main.aaafca31.js.map",
     "static/js/2.0e730a86.chunk.js": "/Intern-Practice/static/js/2.0e730a86.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.1cdda149.chunk.js": "/Intern-Practice/static/js/3.1cdda149.chunk.js",
     "static/js/3.1cdda149.chunk.js.map": "/Intern-Practice/static/js/3.1cdda149.chunk.js.map",
     "index.html": "/Intern-Practice/index.html",
-    "static/css/main.428c3b37.chunk.css.map": "/Intern-Practice/static/css/main.428c3b37.chunk.css.map",
+    "static/css/main.c7cc32f9.chunk.css.map": "/Intern-Practice/static/css/main.c7cc32f9.chunk.css.map",
     "static/js/2.0e730a86.chunk.js.LICENSE.txt": "/Intern-Practice/static/js/2.0e730a86.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.aaafca31.js",
     "static/js/2.0e730a86.chunk.js",
-    "static/css/main.428c3b37.chunk.css",
-    "static/js/main.330f96aa.chunk.js"
+    "static/css/main.c7cc32f9.chunk.css",
+    "static/js/main.ff142ded.chunk.js"
   ]
 }
