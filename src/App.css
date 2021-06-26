@@ -1,11 +1,87 @@
+body{
+  /* overflow-x:hidden; */
+}
 .sub-text{
   margin-bottom:5px;
+  color:white;
+}
+.header{
+  position:fixed;
+  background-color:#ddd;
+  top:0;
+  width:100%;
+  
 }
 .white{
   margin-bottom:15px;
-  color:white;
+  font-weight: bold;
 }
 span{
   margin-right:10px;
   font-size:30px;
+  color:white;
+}
+.Cards{
+  padding-top:80px;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  gap:30px 40px;
+  width:1000px;
+  margin:50px auto;
+}
+.Card{
+  background-color:#f8f8f8;
+  border:1px solid #333;
+  border-radius:5px;
+  justify-content: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left:9px;
+
+}
+.Card img{
+  width:90%;
+  
+}
+.Card > div{
+  margin-bottom:8px;
+  text-transform: capitalize;
+}
+@media only screen and (max-width:600px){
+  .Cards{
+    /* width:100%; */
+    grid-template-columns:1fr;
+    justify-content: center;
+    
+    gap:10px;
+  }
+  .Card img{
+    width:400px;
+  
+  }
+  .Card{
+    width:80%;
+    padding:2%;
+    margin:0 auto;
+  }
+}
+@media only screen and (max-width:400px){
+  .Cards{
+    width:100%;
+    grid-template-columns:1fr;
+    justify-content: center;
+    gap:10px;
+    
+  }
+  .Card img{
+    width:200px;
+  
+  }
+  .Card{
+    width:80%;
+    padding:2%;
+  }
 }

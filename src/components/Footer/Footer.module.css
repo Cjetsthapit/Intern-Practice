@@ -2,11 +2,10 @@
     display:grid;
     grid-template-columns: repeat(2,1fr);
     gap:10px;
-    width:100vw;
     padding:30px 40px;
     background-color: rgb(10, 10, 10);
-    position:absolute;
-    bottom:0;
+    /* position:absolute;
+    bottom:0; */
     text-align:left;
 }
 .leftFooter{
@@ -20,7 +19,7 @@
     cursor: pointer;
 }
 .products div:hover,.company div:hover{
-    color:#fff;
+    color:rgb(204, 142, 142);
 }
 /* .rightFooter{
    

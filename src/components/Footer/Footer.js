@@ -16,7 +16,7 @@ const Footer=(props)=>{
         </div>
         <div className={styles.rightFooter}>
         <Links/>
-        <div className="sub-text white">
+        <div className="sub-text ">
            &copy; Copyright by Srijeet. All Rights Reserved.
         </div>
 

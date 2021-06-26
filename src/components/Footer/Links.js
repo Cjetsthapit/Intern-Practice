@@ -43,7 +43,7 @@ const Links=(props)=>(
             
         </Col>
     </Row>
-    <div className="sub-text white" style={{marginTop:'10px',marginBottom:'-3px'}}>
+    <div className="sub-text " style={{marginTop:'10px',marginBottom:'-3px'}}>
                     Accepted Payment Methods
                 </div>
         <span><FaCcVisa/></span>
