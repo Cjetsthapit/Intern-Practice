@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Intern-Practice/static/css/main.1cf738cb.chunk.css",
-    "main.js": "/Intern-Practice/static/js/main.c04dd761.chunk.js",
-    "main.js.map": "/Intern-Practice/static/js/main.c04dd761.chunk.js.map",
+    "main.js": "/Intern-Practice/static/js/main.c3e65020.chunk.js",
+    "main.js.map": "/Intern-Practice/static/js/main.c3e65020.chunk.js.map",
     "runtime-main.js": "/Intern-Practice/static/js/runtime-main.aaafca31.js",
     "runtime-main.js.map": "/Intern-Practice/static/js/runtime-main.aaafca31.js.map",
     "static/js/2.3d4ebc42.chunk.js": "/Intern-Practice/static/js/2.3d4ebc42.chunk.js",
@@ -11,12 +11,13 @@
     "static/js/3.1cdda149.chunk.js.map": "/Intern-Practice/static/js/3.1cdda149.chunk.js.map",
     "index.html": "/Intern-Practice/index.html",
     "static/css/main.1cf738cb.chunk.css.map": "/Intern-Practice/static/css/main.1cf738cb.chunk.css.map",
-    "static/js/2.3d4ebc42.chunk.js.LICENSE.txt": "/Intern-Practice/static/js/2.3d4ebc42.chunk.js.LICENSE.txt"
+    "static/js/2.3d4ebc42.chunk.js.LICENSE.txt": "/Intern-Practice/static/js/2.3d4ebc42.chunk.js.LICENSE.txt",
+    "static/media/logo.68fb7cc2.png": "/Intern-Practice/static/media/logo.68fb7cc2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.aaafca31.js",
     "static/js/2.3d4ebc42.chunk.js",
     "static/css/main.1cf738cb.chunk.css",
-    "static/js/main.c04dd761.chunk.js"
+    "static/js/main.c3e65020.chunk.js"
   ]
 }
