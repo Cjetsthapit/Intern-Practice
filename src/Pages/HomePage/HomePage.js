@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import Card from '../../components/Card/Card';
-import cloneDeep from 'lodash/cloneDeep';
+import {Modal} from 'react-bootstrap';
 import Modals from '../../components/Modal';
 const HomePage=(props)=>{
     const [shoes]=useState([{
@@ -3520,20 +3520,24 @@ const HomePage=(props)=>{
 
     ]);
     const [show, setShow] = useState(false);
-    const [clickedShoe, setClickedShoe]=useState(null);
+    const [clickedShoe, setClickedShoe]=useState([]);
     const handleClose = () => {
-      setClickedShoe(null);
+      setClickedShoe([]);
       setShow(false);
       
     };
     const handleShow = (id) => {
-      setClickedShoe(id);
-     
+      const newId=id;
+      // const sh = shoes.filter(sh=> sh.id===newId);
       
+      // const shoe=[...sh];
+      setClickedShoe(newId);
       setShow(true);
-      
-      console.log(clickedShoe);
+      // console.log(shoe);
     };
+    const cs=shoes.filter(shoe=> shoe.id===clickedShoe);
+    console.log(cs);
+    
     return(
         
            <div className="Cards">
@@ -3541,8 +3545,23 @@ const HomePage=(props)=>{
            {shoes.map(shoe=> <Card shoe={shoe} click={()=>{
              handleShow(shoe.id);
              }}/>)}
-           <Modals show={show} hide={handleClose} shoe={clickedShoe}/>
-
+           
+           <Modals show={show} hide={handleClose}  shoe={cs}>
+           <Modal.Header>
+              <Modal.Title id="contained-modal-title-vcenter">
+                  {/* {sh[0].name} */}
+                  {/* {shoe[0].id} */}
+                  {cs.name}
+              </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              
+              <p>
+                Being Built
+              </p>
+            </Modal.Body>
+            
+           </Modals>
             
           </div>
           
