@@ -3546,22 +3546,8 @@ const HomePage=(props)=>{
              handleShow(shoe.id);
              }}/>)}
            
-           <Modals show={show} hide={handleClose}  shoe={cs}>
-           <Modal.Header>
-              <Modal.Title id="contained-modal-title-vcenter">
-                  {/* {sh[0].name} */}
-                  {/* {shoe[0].id} */}
-                  {cs.name}
-              </Modal.Title>
-            </Modal.Header>
-            <Modal.Body>
-              
-              <p>
-                Being Built
-              </p>
-            </Modal.Body>
-            
-           </Modals>
+           <Modals show={show} hide={handleClose}  shoe={cs}/>
+           
             
           </div>
           
