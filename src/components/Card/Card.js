@@ -1,5 +1,5 @@
 import React from 'react';
-import {Dropdown, Button} from 'react-bootstrap';
+import { Button} from 'react-bootstrap';
 
 const Card=({shoe,click})=>(
    
@@ -7,17 +7,7 @@ const Card=({shoe,click})=>(
     <div className="Card">
         <img src={shoe.grid_picture_url} alt="Shoes"/>
         <div className="shoe"><strong>{shoe.name}</strong></div>
-        {/* <div className="available">
-        <Dropdown>
-            <Dropdown.Toggle  id="dropdown-basic">
-                Available Sizes
-            </Dropdown.Toggle>
 
-            <Dropdown.Menu>
-                {shoe.size_range.map(size=><Dropdown.Item>{size}</Dropdown.Item>)}
-            </Dropdown.Menu>
-        </Dropdown>
-        </div> */}
         <div className="releaseYear">
             <strong>Released Year : </strong>{shoe.release_year}
         </div>

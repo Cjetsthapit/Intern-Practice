@@ -1,6 +1,5 @@
 import React,{useState} from 'react';
 import Card from '../../components/Card/Card';
-import {Modal} from 'react-bootstrap';
 import Modals from '../../components/Modal';
 const HomePage=(props)=>{
     const [shoes]=useState([{
@@ -3520,7 +3519,7 @@ const HomePage=(props)=>{
 
     ]);
     const [show, setShow] = useState(false);
-    const [clickedShoe, setClickedShoe]=useState([]);
+    const [clickedShoe, setClickedShoe]=useState(null);
     const handleClose = () => {
       setClickedShoe([]);
       setShow(false);
@@ -3535,13 +3534,13 @@ const HomePage=(props)=>{
       setShow(true);
       // console.log(shoe);
     };
-    const cs=shoes.filter(shoe=> shoe.id===clickedShoe);
+    const cs=shoes.filter(shoe=> shoe.id===clickedShoe)[0];
     console.log(cs);
     
     return(
         
            <div className="Cards">
-
+             
            {shoes.map(shoe=> <Card shoe={shoe} click={()=>{
              handleShow(shoe.id);
              }}/>)}
