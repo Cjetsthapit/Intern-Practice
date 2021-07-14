@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Intern-Practice/static/css/main.c4757ccc.chunk.css",
-    "main.js": "/Intern-Practice/static/js/main.0b28a1ce.chunk.js",
-    "main.js.map": "/Intern-Practice/static/js/main.0b28a1ce.chunk.js.map",
+    "main.js": "/Intern-Practice/static/js/main.5ac9c490.chunk.js",
+    "main.js.map": "/Intern-Practice/static/js/main.5ac9c490.chunk.js.map",
     "runtime-main.js": "/Intern-Practice/static/js/runtime-main.12f7e30b.js",
     "runtime-main.js.map": "/Intern-Practice/static/js/runtime-main.12f7e30b.js.map",
     "static/js/2.731760f2.chunk.js": "/Intern-Practice/static/js/2.731760f2.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.12f7e30b.js",
     "static/js/2.731760f2.chunk.js",
     "static/css/main.c4757ccc.chunk.css",
-    "static/js/main.0b28a1ce.chunk.js"
+    "static/js/main.5ac9c490.chunk.js"
   ]
 }
